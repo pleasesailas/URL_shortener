@@ -3,7 +3,7 @@
 運用 Node.js + Express 製作的簡易網站。
 
 
-![image](https://)
+![image](https://github.com/pleasesailas/URL_shortener/blob/main/public/demo.png)
 
 
 ## 特色功能
