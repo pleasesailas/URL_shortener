@@ -4,13 +4,13 @@ function sample(letters) {
 }
 
 
-function generatorFiveLetters (options) {
-  const letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
+function generatorLetters(options) {
+  const LETTERS = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789'
   let result = ''
-  for (let i = 1; i <= Number(options.length); i++) {
-    result += sample(letters)
+  for (let i = 1; i <= Number(options); i++) {
+    result += sample(LETTERS)
   }
   return result
 }
 
-module.exports = generatorFiveLetters
+module.exports = generatorLetters
